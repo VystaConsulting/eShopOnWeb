@@ -1,6 +1,9 @@
-name: eShopOnWeb Build and Test
+name: PR
 
-on: [push, pull_request, workflow_dispatch]
+on: 
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
